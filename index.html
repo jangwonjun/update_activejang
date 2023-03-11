@@ -496,27 +496,49 @@
 
     
 
-        
-        <!--톡플러스-->
-        <!-- Tocplus 15.1 -->
-    <!-- Tocplus 15.1 -->
-    <script type="text/javascript">
-    tocplusTop=1150;
-    tocplusLeft=5;
-    tocplusMinimizedImage='http://kr07.tocplus007.com/img/minimized_ko.gif';
-    tocplusHAlign='right';
-    tocplusWidth=300;
-    tocplusHeight=220;
-    tocplusUserName='USER';
-    tocplusFrameColor='#FFA500';
-    tocplusFloatingWindow=true;
-    var tocplusHost = (("https:" == document.location.protocol) ? "https://" : "http://");
-    document.write(unescape("%"+"3Cscript src='" + tocplusHost + "kr07.tocplus007.com/chatLoader.do?userId=wonjujang' type='text/javascript'"+"%"+"3E"+"%"+"3C/script"+"%"+"3E"));
-    </script>
-    <!-- End of Tocplus -->
-    
-    <!-- End of Tocplus -->
-    
+    <<!-- Channel Plugin Scripts -->
+<script>
+    (function() {
+   var w = window;
+   if (w.ChannelIO) {
+     return (window.console.error || window.console.log || function(){})('ChannelIO script included twice.');
+   }
+   var d = window.document;
+   var ch = function() {
+     ch.c(arguments);
+   };
+   ch.q = [];
+   ch.c = function(args) {
+     ch.q.push(args);
+   };
+   w.ChannelIO = ch;
+   function l() {
+     if (w.ChannelIOInitialized) {
+       return;
+     }
+     w.ChannelIOInitialized = true;
+     var s = document.createElement('script');
+     s.type = 'text/javascript';
+     s.async = true;
+     s.src = 'https://cdn.channel.io/plugin/ch-plugin-web.js';
+     s.charset = 'UTF-8';
+     var x = document.getElementsByTagName('script')[0];
+     x.parentNode.insertBefore(s, x);
+   }
+   if (document.readyState === 'complete') {
+     l();
+   } else if (window.attachEvent) {
+     window.attachEvent('onload', l);
+   } else {
+     window.addEventListener('DOMContentLoaded', l, false);
+     window.addEventListener('load', l, false);
+   }
+    })();
+    ChannelIO('boot', {
+   "pluginKey": "7a96725b-be06-436e-8910-7cc0ecad1ca1"
+    });
+ </script>
+ 
 
     </body>
 </html>
