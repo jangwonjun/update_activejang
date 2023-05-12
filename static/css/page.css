@@ -1,0 +1,25 @@
+.nav-background {
+    background-color: rgb(17, 24, 46) !important;
+}
+
+.nav-logo {
+    height: 80px !important;
+}
+
+#v1 {
+    position: relative;
+    top: -200px;
+    width: 100%;
+}
+
+.blank {
+    background-image: linear-gradient( rgb(255, 255, 255), rgb(255, 255, 255) );
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    gap: 10px;
+}
