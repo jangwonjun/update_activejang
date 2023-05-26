@@ -2,6 +2,7 @@ import argparse as ap
 import subprocess as su
 import time
 import os
+import env
 
 
 def execute(command: str) -> str:
@@ -25,14 +26,14 @@ if args.login:
     elif args.login == "false":
         os.system("git config --unset credential.helper")
 worktree = "sudo git " + \
-    (f" reset {args.reset} --hard" if args.reset else "pull origin origin/master")
+    (f" reset {args.reset} --hard" if args.reset else "pull")
 
-params = execute("ps -e").split("\n")[1:]
+params = execute(f"ps -e").split("\n")[1:]
 token = True
 for i in params:
     param = [j for j in i.split() if j]
     if len(param) == 4:
-        if param[3] == "python3" and os.getpid() != int(param[0]):
+        if param[3] == env.PROC_NAME and os.getpid() != int(param[0]):
             result = f"kill {param[0]}"
             print(result)
             os.system(result)
@@ -44,5 +45,7 @@ if not args.noPull:
     os.system(worktree)
     time.sleep(0.5)
 if not args.kill:
+    file_dir = os.path.abspath(__file__)
+    path = os.path.dirname(file_dir)
     os.system(
-        f"nohup python3 -u {os.path.expanduser('~')}/Active Jang 2_fin/app.py &")
+        f"nohup python3 -u {path}/app.py &")
