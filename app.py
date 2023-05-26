@@ -1,5 +1,9 @@
 from flask import Flask, render_template
 import env
+from proctitle import setproctitle
+
+setproctitle.setproctitle(env.PROC_NAME)
+
 app  = Flask(__name__, static_url_path='/static')
 
 @app.route('/')
