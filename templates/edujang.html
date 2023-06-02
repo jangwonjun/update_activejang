@@ -1,521 +1,483 @@
-<!DOCTYPE html>
-<html lang="en" class="fontawesome-i2svg-active fontawesome-i2svg-complete">
+{% extends 'static.html' %}
+{% block head %}
+{{ super() }}
+<link rel="icon" type="image/x-icon" href="static/img/brand/edu_jang.webp">
+{% endblock %}
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <meta name="naver-site-verification" content="59c773860bfead4bd02ce56e88ed49568c14a012" />
-  <meta name="google-site-verification" content="kCUbVaNRZPVFbay132KkonMyJpHfdLxd8KrkTi7aN-o" />
-  <title>Edu Jang</title>
-  <!-- Favicon-->
-  <link rel="stylesheet" href="/static/css/styles.css">
-  <link rel="stylesheet" href="/static/css/page.css">
-  <link rel="icon" type="image/x-icon" href="static/img/edujang.png">
-  <!-- Font Awesome icons (free version)-->
-  <script type="text/javascript" async="" src="https://cdn.channel.io/plugin/ch-plugin-web.js" charset="UTF-8"></script>
-  <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-  <!-- Google fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
-  <!-- Core theme CSS (includes Bootstrap)-->
-</head>
+{% block body %}
+<video autoplay="" muted="" loop="" id="v1">
+  <source src="./static/video/activejang_intro.mp4" type="video/mp4">
+  이 글자가 보인다면 사용중인 브라우저는 구형입니다.
+</video><!-- Introduce-->
+<section class="page-section" id="Introduce">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">Direction</h2>
+      <h3 class="section-subheading text-muted">Edu Jang의 교육방향성입니다.</h3>
+    </div>
 
-<body id="page-top">
-  <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-background" id="mainNav">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+            viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M337.8 5.4C327-1.8 313-1.8 302.2 5.4L166.3 96H48C21.5 96 0 117.5 0 144V464c0 26.5 21.5 48 48 48H592c26.5 0 48-21.5 48-48V144c0-26.5-21.5-48-48-48H473.7L337.8 5.4zM256 416c0-35.3 28.7-64 64-64s64 28.7 64 64v96H256V416zM96 192h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16V208c0-8.8 7.2-16 16-16zm400 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H512c-8.8 0-16-7.2-16-16V208zM96 320h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16V336c0-8.8 7.2-16 16-16zm400 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H512c-8.8 0-16-7.2-16-16V336zM232 176a88 88 0 1 1 176 0 88 88 0 1 1 -176 0zm88-48c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H336V144c0-8.8-7.2-16-16-16z" />
+          </svg>
+        </span>
+
+
+        <h4 class="my-3">비전공자 맞춤</h4>
+        <p class="text-muted">코딩을 1도 모르는 수강생도 쉽게 학습할 수 있습니다.</p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+            viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z" />
+          </svg>
+        </span>
+        <h4 class="my-3">Basic Coding</h4>
+        <p class="text-muted">기초를 가장 중요시 생각합니다. <br> 기초부터 차근차근 학습자료를 제공합니다.</p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+            viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
+          </svg>
+        </span>
+        <h4 class="my-3">Diversity Of Edu</h4>
+        <p class="text-muted">다양한 컴퓨터분야 교육을 지원합니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="page-section bg-light" id="Review">
+  <div class="text-center">
+    <h2 class="section-heading text-uppercase">수강 후기</h2>
+    <h3 class="section-subheading text-muted">다른 사람들의 수강 후기입니다.</h3>
+
+    <div>
+      <h1>고3이 만들었다니 매우 놀라울 뿐이다</h1>
+      <h3 class="section-subheading text-muted">현 고등학교 정보 선생님</h3>
+    </div>
+
+    <div>
+      <h1>비전공자도 쉽게 배울수 있는 교재인것 같아요!</h1>
+      <h3 class="section-subheading text-muted">현 문과 대학생</h3>
+    </div>
+
+    <div>
+      <h1>직관적인 설명, 개념설명과 예시문항들 총정리 등 여러모로 체계적이 교재이네요.</h1>
+      <h3 class="section-subheading text-muted">2022 수강생</h3>
+    </div>
+
+    <div>
+      <h1>빠른 시간에 자세하게 C언의 기초를 잡을 수 있어서 좋았어요!</h1>
+      <h3 class="section-subheading text-muted">2019 수강생</h3>
+    </div>
+
+
+    <h1 style="color:#0101DF;">선생님, 수강생들이 남겨주신 100% 리얼 학습후기로 이미 증명되었습니다.</h1>
+
+  </div>
+</section>
+
+<!-- Portfolio Grid-->
+<section class="page-section bg-light" id="portfolio">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">Book</h2>
+      <h3 class="section-subheading text-muted">EduJang ((전)ComputerDoctor이) 만든 책입니다.</h3>
+    </div>
+    <div class="row">
+      <!-- Portfolio item 1-->
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="portfolio-item">
+          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content"><svg class="svg-inline--fa fa-plus fa-3x" aria-hidden="true"
+                  focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512" data-fa-i2svg="">
+                  <path fill="currentColor"
+                    d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z">
+                  </path>
+                </svg><!-- <i class="fas fa-plus fa-3x"></i> Font Awesome fontawesome.com --></div>
+            </div>
+            <img class="img-fluid" src="static/img/portfolio/book_cover.webp" alt="...">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">Be전공자가 알려주는 자연어처리</div>
+            <div class="portfolio-caption-subheading text-muted">wikidocs에서 만나보실 수 있습니다.</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <!-- Portfolio item 2-->
+        <div class="portfolio-item">
+          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content"><svg class="svg-inline--fa fa-plus fa-3x" aria-hidden="true"
+                  focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512" data-fa-i2svg="">
+                  <path fill="currentColor"
+                    d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z">
+                  </path>
+                </svg><!-- <i class="fas fa-plus fa-3x"></i> Font Awesome fontawesome.com --></div>
+            </div>
+            <img class="img-fluid" src="static/img/book1.png" alt="...">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">C언어 문법 교재 1권</div>
+            <div class="portfolio-caption-subheading text-muted">이미 많은 사람들에게 검증된 C언어 교재입니다.
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <!-- Portfolio item 3-->
+        <div class="portfolio-item">
+          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content"><svg class="svg-inline--fa fa-plus fa-3x" aria-hidden="true"
+                  focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512" data-fa-i2svg="">
+                  <path fill="currentColor"
+                    d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z">
+                  </path>
+                </svg><!-- <i class="fas fa-plus fa-3x"></i> Font Awesome fontawesome.com --></div>
+            </div>
+            <img class="img-fluid" src="static/img/book2.png" alt="...">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">C언어 문법 교재 2권</div>
+            <div class="portfolio-caption-subheading text-muted">1권에 이어 이미 많은 사람들에게 검증된 C언어 교재입니다.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <!-- Portfolio item 4-->
+        <div class="portfolio-item">
+          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content"><svg class="svg-inline--fa fa-plus fa-3x" aria-hidden="true"
+                  focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512" data-fa-i2svg="">
+                  <path fill="currentColor"
+                    d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z">
+                  </path>
+                </svg><!-- <i class="fas fa-plus fa-3x"></i> Font Awesome fontawesome.com --></div>
+            </div>
+            <img class="img-fluid" src="static/img/portfolio/activejang_week.jpeg" alt="...">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">Consulting Jang X Edu Jang <br> 주간지 </div>
+            <div class="portfolio-caption-subheading text-muted">Consulting에서 제공하는 주간지를 제작하였습니다.</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <!-- Portfolio item 5-->
+        <div class="portfolio-item">
+          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content"><svg class="svg-inline--fa fa-plus fa-3x" aria-hidden="true"
+                  focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512" data-fa-i2svg="">
+                  <path fill="currentColor"
+                    d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z">
+                  </path>
+                </svg><!-- <i class="fas fa-plus fa-3x"></i> Font Awesome fontawesome.com --></div>
+            </div>
+            <img class="img-fluid" src="static/img/hardwarejang.png" alt="...">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">HardWare 교육</div>
+            <div class="portfolio-caption-subheading text-muted">하드웨어 교육도 이제 선택이 아닌 필수가 되었습니다.</div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+</section>
+<!--Making Film-->
+
+
+
+
+<!--Publishing-->
+<section class="page-section" id="Brand">
+  <div class="text-center">
     <div class="container">
-      <a class="navbar-brand" href="#page-top"><img src="static/img/wonjun.png" class="nav-logo" alt="..."></a>
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
-        Menu
-        <svg class="svg-inline--fa fa-bars ms-1" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
-          role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+      <h2 class="my-3">Brand</h2>
+      <h3 class="section-subheading text-muted">ActiveJang'S Brand</h3>
+      <table width="10">
+        <tbody>
+          <tr>
+            <td width="10" height="10"></td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+    <div class="text-center image-container">
+      <a href="/volunteer_jang"><img src="static/img/brand/volunteer_jang.webp" ,width="10"></a>
+      <a href="/edu_jang"><img src="static/img/brand/edu_jang.webp" ,width="10"></a>
+      <a href="/consulting_jang"><img src="static/img/brand/consulting.webp" ,width="10"></a>
+
+    </div>
+  </div>
+
+
+</section>
+
+<!-- 맨밑에-->
+<footer class="footer py-4">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-4 text-lg-start">Copyright © Active Jang 2022</div>
+      <div class="col-lg-4 text-lg-start">Email : admin@activejang.com</div>
+      <div class="col-lg-4 text-lg-end">
+        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<!-- 포트폴리오 상세모델 Modals-->
+<!-- Portfolio item 1 modal popup-->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-bs-dismiss="modal"><svg class="svg-inline--fa fa-xmark" aria-hidden="true"
+          focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 320 512" data-fa-i2svg="">
           <path fill="currentColor"
-            d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z">
+            d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z">
           </path>
-        </svg><!-- <i class="fas fa-bars ms-1"></i> Font Awesome fontawesome.com -->
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-          <li class="nav-item"><a class="nav-link" href="#Introduce">Direction</a></li>
-          <li class="nav-item"><a class="nav-link" href="#portfolio">Review</a></li>
-          <li class="nav-item"><a class="nav-link" href="#Projecting">Online Book</a></li>
-          <li class="nav-item"><a class="nav-link" href="#Brand">Brand</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Masthead-->
-  <header class="masthead blank">
-    <div class="container">
-      <div class="masthead-heading text-uppercase"></div>
-    </div>
-  </header>
-
-
-  <video autoplay="" muted="" loop="" id="v1">
-    <source src="./static/video/activejang_intro.mp4" type="video/mp4">
-    이 글자가 보인다면 사용중인 브라우저는 구형입니다.
-  </video><!-- Introduce-->
-  <section class="page-section" id="Introduce">
-    <div class="container">
-      <div class="text-center">
-        <h2 class="section-heading text-uppercase">Direction</h2>
-        <h3 class="section-subheading text-muted">Edu Jang의 교육방향성입니다.</h3>
-      </div>
-      <div class="row text-center">
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M337.8 5.4C327-1.8 313-1.8 302.2 5.4L166.3 96H48C21.5 96 0 117.5 0 144V464c0 26.5 21.5 48 48 48H592c26.5 0 48-21.5 48-48V144c0-26.5-21.5-48-48-48H473.7L337.8 5.4zM256 416c0-35.3 28.7-64 64-64s64 28.7 64 64v96H256V416zM96 192h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16V208c0-8.8 7.2-16 16-16zm400 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H512c-8.8 0-16-7.2-16-16V208zM96 320h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16V336c0-8.8 7.2-16 16-16zm400 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H512c-8.8 0-16-7.2-16-16V336zM232 176a88 88 0 1 1 176 0 88 88 0 1 1 -176 0zm88-48c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H336V144c0-8.8-7.2-16-16-16z"/></svg>
-          </span>
-
-
-          <h4 class="my-3">비전공자 맞춤</h4>
-          <p class="text-muted">코딩을 1도 모르는 수강생도 쉽게 학습할 수 있습니다.</p>
-        </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
-          </span>
-          <h4 class="my-3">Basic Coding</h4>
-          <p class="text-muted">기초를 가장 중요시 생각합니다. <br> 기초부터 차근차근 학습자료를 제공합니다.</p>
-        </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>
-          </span>
-          <h4 class="my-3">Diversity Of Edu</h4>
-          <p class="text-muted">다양한 컴퓨터분야 교육을 지원합니다.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section class="page-section bg-light" id="portfolio">
-    <div class="text-center">
-      <h2 class="section-heading text-uppercase">수강 후기</h2>
-      <h3 class="section-subheading text-muted">다른 사람들의 수강 후기입니다.</h3>
-      
-      <div>
-        <h1>고3이 만들었다니 매우 놀라울 뿐이다</h1>
-        <h3 class="section-subheading text-muted">현 고등학교 정보 선생님</h3>
-      </div>
-
-      <div>
-        <h1>비전공자도 쉽게 배울수 있는 교재인것 같아요!</h1>
-        <h3 class="section-subheading text-muted">현 문과 대학생</h3>
-      </div>
-
-      <div>
-        <h1>직관적인 설명, 개념설명과 예시문항들 총정리 등 여러모로 체계적이 교재이네요.</h1>
-        <h3 class="section-subheading text-muted">2022 수강생</h3>
-      </div>
-
-      <div>
-        <h1>빠른 시간에 자세하게 C언의 기초를 잡을 수 있어서 좋았어요!</h1>
-        <h3 class="section-subheading text-muted">2019 수강생</h3>
-      </div>
-      
-      
-      <h1 style = "color:#0101DF;">선생님, 수강생들이 남겨주신 100% 리얼 학습후기로 이미 증명되었습니다.</h1>
-
-    </div>
-  </section>
-
-  <!-- Portfolio Grid-->
-  <section class="page-section bg-light" id="Projecting">
-    <div class="container">
-      <div class="text-center">
-        <h2 class="section-heading text-uppercase">Book</h2>
-        <h3 class="section-subheading text-muted">EduJang ((전)ComputerDoctor이) 만든 책입니다.</h3>
-        </div>
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 mb-4">
-         </div>
-          <!-- Portfolio item 1-->
-          <div class="portfolio-item">
-            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content"><svg class="svg-inline--fa fa-plus fa-3x" aria-hidden="true"
-                    focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512" data-fa-i2svg="">
-                    <path fill="currentColor"
-                      d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z">
-                    </path>
-                  </svg><!-- <i class="fas fa-plus fa-3x"></i> Font Awesome fontawesome.com --></div>
-              </div>
-              <img class="img-fluid" src="static/img/portfolio/book_cover.webp" alt="...">
-            </a>
-            <div class="portfolio-caption">
-              <div class="portfolio-caption-heading">Be전공자가 알려주는 자연어처리</div>
-              <div class="portfolio-caption-subheading text-muted">wikidocs에서 만나보실 수 있습니다.</div>
-            </div>
-          </div>
-       
-     
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <!-- Portfolio item 2-->
-          <div class="portfolio-item">
-            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content"><svg class="svg-inline--fa fa-plus fa-3x" aria-hidden="true"
-                    focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512" data-fa-i2svg="">
-                    <path fill="currentColor"
-                      d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z">
-                    </path>
-                  </svg><!-- <i class="fas fa-plus fa-3x"></i> Font Awesome fontawesome.com --></div>
-              </div>
-              <img class="img-fluid" src="static/img/book1.png" alt="...">
-            </a>
-            <div class="portfolio-caption">
-              <div class="portfolio-caption-heading">C언어 문법 교재 1권</div>
-              <div class="portfolio-caption-subheading text-muted">이미 많은 사람들에게 검증된 C언어 교재입니다.
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <!-- Portfolio item 3-->
-          <div class="portfolio-item">
-            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content"><svg class="svg-inline--fa fa-plus fa-3x" aria-hidden="true"
-                    focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512" data-fa-i2svg="">
-                    <path fill="currentColor"
-                      d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z">
-                    </path>
-                  </svg><!-- <i class="fas fa-plus fa-3x"></i> Font Awesome fontawesome.com --></div>
-              </div>
-              <img class="img-fluid" src="static/img/book2.png" alt="...">
-            </a>
-            <div class="portfolio-caption">
-              <div class="portfolio-caption-heading">C언어 문법 교재 2권</div>
-              <div class="portfolio-caption-subheading text-muted">1권에 이어 이미 많은 사람들에게 검증된 C언어 교재입니다.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <!-- Portfolio item 4-->
-          <div class="portfolio-item">
-            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content"><svg class="svg-inline--fa fa-plus fa-3x" aria-hidden="true"
-                    focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512" data-fa-i2svg="">
-                    <path fill="currentColor"
-                      d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z">
-                    </path>
-                  </svg><!-- <i class="fas fa-plus fa-3x"></i> Font Awesome fontawesome.com --></div>
-              </div>
-              <img class="img-fluid" src="static/img/portfolio/activejang_week.jpeg" alt="...">
-            </a>
-            <div class="portfolio-caption">
-              <div class="portfolio-caption-heading">Consulting Jang X Edu Jang <br> 주간지 </div>
-              <div class="portfolio-caption-subheading text-muted">Consulting에서 제공하는 주간지를 제작하였습니다.</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <!-- Portfolio item 5-->
-          <div class="portfolio-item">
-            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content"><svg class="svg-inline--fa fa-plus fa-3x" aria-hidden="true"
-                    focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512" data-fa-i2svg="">
-                    <path fill="currentColor"
-                      d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z">
-                    </path>
-                  </svg><!-- <i class="fas fa-plus fa-3x"></i> Font Awesome fontawesome.com --></div>
-              </div>
-              <img class="img-fluid" src="static/img/hardwarejang.png" alt="...">
-            </a>
-            <div class="portfolio-caption">
-              <div class="portfolio-caption-heading">HardWare 교육</div>
-              <div class="portfolio-caption-subheading text-muted">하드웨어 교육도 이제 선택이 아닌 필수가 되었습니다.</div>
-
-            </div>
-          </div>
-      
-        </div>
-      </div>
- 
-
-    </section> 
-  <!--Making Film-->
- 
-
-
-
-  <!--Publishing-->
-  <section class="page-section" id="Brand">
-    <div class="text-center">
+        </svg><!-- <i class="fa-solid fa-xmark"></i> Font Awesome fontawesome.com --></div>
       <div class="container">
-        <h2 class="my-3">Brand</h2>
-        <h3 class="section-subheading text-muted">ActiveJang'S Brand</h3>
-        <table width="10">
-          <tbody>
-            <tr>
-              <td width="10" height="10"></td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="modal-body">
+              <!-- Project details-->
+              <h2 class="text-uppercase">Be전공자가 알려주는 자연어처리 기초특강</h2>
+              <p class="item-intro text-muted">wikidocs에서 만나보실수 있습니다.</p>
+              <p>K-고3이 알려주는 자연어처리 기초 및 실습 특강입니다. wikidocs에서 만나보실 수 있습니다.</p>
+              <ul class="list-inline">
+                <li>
+                  <strong>State</strong>
+                  (개발완료)
+                </li>
+                <li>
+                  <strong>Category:</strong>
+                  Edu
+                </li>
+              </ul>
+              <div class="text-center">
+                <div class="masthead-heading text-uppercase"></div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="https://wikidocs.net/book/9469"
+                  target="blank">wikidocs 바로가기</a>
+              </div>
 
-      </div>
-      <div class="text-center image-container">
-        <a href="/volunteer_jang"><img src="static/img/brand/volunteer_jang.webp" ,width="10"></a>
-        <a href="/edu_jang"><img src="static/img/brand/edu_jang.webp" ,width="10"></a>
-        <a href="/consulting_jang"><img src="static/img/brand/consulting.webp" ,width="10"></a>
+              <table width="10">
+                <tbody>
+                  <tr>
+                    <td width="10" height="10"></td>
+                  </tr>
+                </tbody>
+              </table>
 
-      </div>
-    </div>
-
-
-  </section>
-
-  <!-- 맨밑에-->
-  <footer class="footer py-4">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-4 text-lg-start">Copyright © Active Jang 2022</div>
-        <div class="col-lg-4 text-lg-start">Email : admin@activejang.com</div>
-        <div class="col-lg-4 text-lg-end">
-          <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-          <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
-
+              <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                <svg class="svg-inline--fa fa-xmark me-1" aria-hidden="true" focusable="false" data-prefix="fas"
+                  data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
+                  data-fa-i2svg="">
+                  <path fill="currentColor"
+                    d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z">
+                  </path>
+                </svg><!-- <i class="fas fa-xmark me-1"></i> Font Awesome fontawesome.com -->
+                Close Project
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </footer>
-
-
-
-
-
-  <!-- 포트폴리오 상세모델 Modals-->
-  <!-- Portfolio item 1 modal popup-->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-bs-dismiss="modal"><svg class="svg-inline--fa fa-xmark" aria-hidden="true"
-            focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 320 512" data-fa-i2svg="">
-            <path fill="currentColor"
-              d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z">
-            </path>
-          </svg><!-- <i class="fa-solid fa-xmark"></i> Font Awesome fontawesome.com --></div>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <div class="modal-body">
-                <!-- Project details-->
-                <h2 class="text-uppercase">Be전공자가 알려주는 자연어처리 기초특강</h2>
-                <p class="item-intro text-muted">wikidocs에서 만나보실수 있습니다.</p>
-                <p>K-고3이 알려주는 자연어처리 기초 및 실습 특강입니다. wikidocs에서 만나보실 수 있습니다.</p>
-                <ul class="list-inline">
-                  <li>
-                    <strong>State</strong>
-                    (개발완료)
-                  </li>
-                  <li>
-                    <strong>Category:</strong>
-                    Edu
-                  </li>
-                </ul>
+  </div>
+</div>
+<!-- Portfolio item 2 modal popup-->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-bs-dismiss="modal"><svg class="svg-inline--fa fa-xmark" aria-hidden="true"
+          focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 320 512" data-fa-i2svg="">
+          <path fill="currentColor"
+            d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z">
+          </path>
+        </svg><!-- <i class="fa-solid fa-xmark"></i> Font Awesome fontawesome.com --></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="modal-body">
+              <!-- Project details-->
+              <h2 class="text-uppercase">C언어 문법 교재 1권</h2>
+              <p class="item-intro text-muted">자체 제작 교재로 누구나 쉽게 배울수 있습니다.</p>
+              <p>비전공자도 쉽게 이해할 수 있는 C언어 교재입니다! <br> 이미 많은 수강후기가 실적을 증명해주었습니다.</p>
+              <ul class="list-inline">
+                <li>
+                  <strong>State</strong>
+                  (개발완료)
+                </li>
+                <li>
+                  <strong>Category:</strong>
+                  Edu
+                </li>
                 <div class="text-center">
                   <div class="masthead-heading text-uppercase"></div>
-                  <a class="btn btn-primary btn-xl text-uppercase" href="https://wikidocs.net/book/9469"
-                    target="blank">wikidocs 바로가기</a>
+                  <a class="btn btn-primary btn-xl text-uppercase"
+                    href="https://docs.google.com/presentation/d/1Bt2-Xmhd80l3mkgdcn8RSs0h8urBhpTCsJllVJL-V6o/edit?usp=sharing"
+                    target="blank">C언어 교재1 바로가기</a>
                 </div>
+              </ul>
+              <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                <svg class="svg-inline--fa fa-xmark me-1" aria-hidden="true" focusable="false" data-prefix="fas"
+                  data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
+                  data-fa-i2svg="">
+                  <path fill="currentColor"
+                    d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z">
+                  </path>
+                </svg><!-- <i class="fas fa-xmark me-1"></i> Font Awesome fontawesome.com -->
+                Close Project
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio item 2 modal popup-->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-bs-dismiss="modal"><svg class="svg-inline--fa fa-xmark" aria-hidden="true"
+          focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 320 512" data-fa-i2svg="">
+          <path fill="currentColor"
+            d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z">
+          </path>
+        </svg><!-- <i class="fa-solid fa-xmark"></i> Font Awesome fontawesome.com --></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="modal-body">
+              <!-- Project details-->
+              <h2 class="text-uppercase">C언어 문법 교재 2권</h2>
+              <p class="item-intro text-muted">자체 제작 교재로 누구나 쉽게 배울수 있습니다.</p>
+              <p>비전공자도 쉽게 이해할 수 있는 C언어 교재입니다! <br> 이미 많은 수강후기가 실적을 증명해주었습니다.</p>
+              <ul class="list-inline">
+                <li>
+                  <strong>State</strong>
+                  (개발완료)
+                </li>
+                <li>
+                  <strong>Category:</strong>
+                  Edu
+                </li>
+                <div class="text-center">
+                  <div class="masthead-heading text-uppercase"></div>
+                  <a class="btn btn-primary btn-xl text-uppercase"
+                    href="https://docs.google.com/presentation/d/1_jSxgdxM-8HOgtZv2K1gvASHmg4M-mHH4kb9cVwFUdo/edit?usp=sharing"
+                    target="blank">C언어 교재2 바로가기</a>
+                </div>
+              </ul>
+              <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                <svg class="svg-inline--fa fa-xmark me-1" aria-hidden="true" focusable="false" data-prefix="fas"
+                  data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
+                  data-fa-i2svg="">
+                  <path fill="currentColor"
+                    d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z">
+                  </path>
+                </svg><!-- <i class="fas fa-xmark me-1"></i> Font Awesome fontawesome.com -->
+                Close Project
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio item 2 modal popup-->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-bs-dismiss="modal"><svg class="svg-inline--fa fa-xmark" aria-hidden="true"
+          focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 320 512" data-fa-i2svg="">
+          <path fill="currentColor"
+            d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z">
+          </path>
+        </svg><!-- <i class="fa-solid fa-xmark"></i> Font Awesome fontawesome.com --></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="modal-body">
+              <!-- Project details-->
+              <h2 class="text-uppercase">Consulting Jang X Edu Jang 주간지</h2>
+              <p class="item-intro text-muted">Consulting에 사용되는 교재입니다.</p>
+              <p>자세한 설명은 ActiveJang에 접속해서 확인해보세요!</p>
+              <ul class="list-inline">
+                <li>
+                  <strong>State</strong>
+                  (개발중)
+                </li>
+                <li>
+                  <strong>Category:</strong>
+                  Edu
+                </li>
+                <div class="text-center">
+                  <div class="masthead-heading text-uppercase"></div>
+                  <a class="btn btn-primary btn-xl text-uppercase"
+                    href="https://colab.research.google.com/drive/1v3S3-JbPMtK5LGSTH2aiurTQ449AkptJ?usp=sharing"
+                    target="blank">주간지 바로가기</a>
+                </div>
+              </ul>
+              <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                <svg class="svg-inline--fa fa-xmark me-1" aria-hidden="true" focusable="false" data-prefix="fas"
+                  data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
+                  data-fa-i2svg="">
+                  <path fill="currentColor"
+                    d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z">
+                  </path>
+                </svg><!-- <i class="fas fa-xmark me-1"></i> Font Awesome fontawesome.com -->
+                Close Project
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-                <table width="10">
-                  <tbody>
-                    <tr>
-                      <td width="10" height="10"></td>
-                    </tr>
-                  </tbody>
-                </table>
-
-                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                  <svg class="svg-inline--fa fa-xmark me-1" aria-hidden="true" focusable="false" data-prefix="fas"
-                    data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
-                    data-fa-i2svg="">
-                    <path fill="currentColor"
-                      d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z">
-                    </path>
-                  </svg><!-- <i class="fas fa-xmark me-1"></i> Font Awesome fontawesome.com -->
-                  Close Project
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Portfolio item 2 modal popup-->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-bs-dismiss="modal"><svg class="svg-inline--fa fa-xmark" aria-hidden="true"
-            focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 320 512" data-fa-i2svg="">
-            <path fill="currentColor"
-              d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z">
-            </path>
-          </svg><!-- <i class="fa-solid fa-xmark"></i> Font Awesome fontawesome.com --></div>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <div class="modal-body">
-                <!-- Project details-->
-                <h2 class="text-uppercase">C언어 문법 교재 1권</h2>
-                <p class="item-intro text-muted">자체 제작 교재로 누구나 쉽게 배울수 있습니다.</p>
-                <p>비전공자도 쉽게 이해할 수 있는 C언어 교재입니다! <br> 이미 많은 수강후기가 실적을 증명해주었습니다.</p>
-                <ul class="list-inline">
-                  <li>
-                    <strong>State</strong>
-                    (개발완료)
-                  </li>
-                  <li>
-                    <strong>Category:</strong>
-                    Edu
-                  </li>
-                  <div class="text-center">
-                    <div class="masthead-heading text-uppercase"></div>
-                    <a class="btn btn-primary btn-xl text-uppercase" href="https://docs.google.com/presentation/d/1Bt2-Xmhd80l3mkgdcn8RSs0h8urBhpTCsJllVJL-V6o/edit?usp=sharing"
-                      target="blank">C언어 교재1 바로가기</a>
-                  </div>
-                </ul>
-                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                  <svg class="svg-inline--fa fa-xmark me-1" aria-hidden="true" focusable="false" data-prefix="fas"
-                    data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
-                    data-fa-i2svg="">
-                    <path fill="currentColor"
-                      d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z">
-                    </path>
-                  </svg><!-- <i class="fas fa-xmark me-1"></i> Font Awesome fontawesome.com -->
-                  Close Project
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Portfolio item 2 modal popup-->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-bs-dismiss="modal"><svg class="svg-inline--fa fa-xmark" aria-hidden="true"
-            focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 320 512" data-fa-i2svg="">
-            <path fill="currentColor"
-              d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z">
-            </path>
-          </svg><!-- <i class="fa-solid fa-xmark"></i> Font Awesome fontawesome.com --></div>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <div class="modal-body">
-                <!-- Project details-->
-                <h2 class="text-uppercase">C언어 문법 교재 2권</h2>
-                <p class="item-intro text-muted">자체 제작 교재로 누구나 쉽게 배울수 있습니다.</p>
-                <p>비전공자도 쉽게 이해할 수 있는 C언어 교재입니다! <br> 이미 많은 수강후기가 실적을 증명해주었습니다.</p>
-                <ul class="list-inline">
-                  <li>
-                    <strong>State</strong>
-                    (개발완료)
-                  </li>
-                  <li>
-                    <strong>Category:</strong>
-                    Edu
-                  </li>
-                  <div class="text-center">
-                    <div class="masthead-heading text-uppercase"></div>
-                    <a class="btn btn-primary btn-xl text-uppercase" href="https://docs.google.com/presentation/d/1_jSxgdxM-8HOgtZv2K1gvASHmg4M-mHH4kb9cVwFUdo/edit?usp=sharing"
-                      target="blank">C언어 교재2 바로가기</a>
-                  </div>
-                </ul>
-                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                  <svg class="svg-inline--fa fa-xmark me-1" aria-hidden="true" focusable="false" data-prefix="fas"
-                    data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
-                    data-fa-i2svg="">
-                    <path fill="currentColor"
-                      d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z">
-                    </path>
-                  </svg><!-- <i class="fas fa-xmark me-1"></i> Font Awesome fontawesome.com -->
-                  Close Project
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Portfolio item 2 modal popup-->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-bs-dismiss="modal"><svg class="svg-inline--fa fa-xmark" aria-hidden="true"
-            focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 320 512" data-fa-i2svg="">
-            <path fill="currentColor"
-              d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z">
-            </path>
-          </svg><!-- <i class="fa-solid fa-xmark"></i> Font Awesome fontawesome.com --></div>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <div class="modal-body">
-                <!-- Project details-->
-                <h2 class="text-uppercase">Consulting Jang X Edu Jang 주간지</h2>
-                <p class="item-intro text-muted">Consulting에 사용되는 교재입니다.</p>
-                <p>자세한 설명은 ActiveJang에 접속해서 확인해보세요!</p>
-                <ul class="list-inline">
-                  <li>
-                    <strong>State</strong>
-                    (개발중)
-                  </li>
-                  <li>
-                    <strong>Category:</strong>
-                    Edu
-                  </li>
-                  <div class="text-center">
-                    <div class="masthead-heading text-uppercase"></div>
-                    <a class="btn btn-primary btn-xl text-uppercase" href="https://colab.research.google.com/drive/1v3S3-JbPMtK5LGSTH2aiurTQ449AkptJ?usp=sharing"
-                      target="blank">주간지 바로가기</a>
-                  </div>
-                </ul>
-                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                  <svg class="svg-inline--fa fa-xmark me-1" aria-hidden="true" focusable="false" data-prefix="fas"
-                    data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
-                    data-fa-i2svg="">
-                    <path fill="currentColor"
-                      d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z">
-                    </path>
-                  </svg><!-- <i class="fas fa-xmark me-1"></i> Font Awesome fontawesome.com -->
-                  Close Project
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
 <!-- Portfolio item 2 modal popup-->
 <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
@@ -546,7 +508,8 @@
                 </li>
                 <div class="text-center">
                   <div class="masthead-heading text-uppercase"></div>
-                  <a class="btn btn-primary btn-xl text-uppercase" href="https://drive.google.com/file/d/1XxCnBZwJ8SEOzDD_gUE7wfsvtMKGi-PX/view?usp=sharing"
+                  <a class="btn btn-primary btn-xl text-uppercase"
+                    href="https://drive.google.com/file/d/1XxCnBZwJ8SEOzDD_gUE7wfsvtMKGi-PX/view?usp=sharing"
                     target="blank">하드웨어 교육 자료 다운</a>
                 </div>
               </ul>
@@ -567,112 +530,4 @@
     </div>
   </div>
 </div>
-  <!-- Bootstrap core JS-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Core theme JS-->
-  <script src="js/scripts.js"></script>
-  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-  <!-- * *                               SB Forms JS                               * *-->
-  <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-
-
-
-
-
-
-  &lt;<!-- Channel Plugin Scripts -->
-  <script>
-    (function () {
-      var w = window;
-      if (w.ChannelIO) {
-        return (window.console.error || window.console.log || function () { })('ChannelIO script included twice.');
-      }
-      var d = window.document;
-      var ch = function () {
-        ch.c(arguments);
-      };
-      ch.q = [];
-      ch.c = function (args) {
-        ch.q.push(args);
-      };
-      w.ChannelIO = ch;
-      function l() {
-        if (w.ChannelIOInitialized) {
-          return;
-        }
-        w.ChannelIOInitialized = true;
-        var s = document.createElement('script');
-        s.type = 'text/javascript';
-        s.async = true;
-        s.src = 'https://cdn.channel.io/plugin/ch-plugin-web.js';
-        s.charset = 'UTF-8';
-        var x = document.getElementsByTagName('script')[0];
-        x.parentNode.insertBefore(s, x);
-      }
-      if (document.readyState === 'complete') {
-        l();
-      } else if (window.attachEvent) {
-        window.attachEvent('onload', l);
-      } else {
-        window.addEventListener('DOMContentLoaded', l, false);
-        window.addEventListener('load', l, false);
-      }
-    })();
-    ChannelIO('boot', {
-      "pluginKey": "7a96725b-be06-436e-8910-7cc0ecad1ca1"
-    });
-  </script>
-
-
-  <script>
-    if ('WebSocket' in window) {
-      (function () {
-        function refreshCSS() {
-          var sheets = [].slice.call(document.getElementsByTagName("link"));
-          var head = document.getElementsByTagName("head")[0];
-          for (var i = 0; i < sheets.length; ++i) {
-            var elem = sheets[i];
-            var parent = elem.parentElement || head;
-            parent.removeChild(elem);
-            var rel = elem.rel;
-            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-              var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-              elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-            }
-            parent.appendChild(elem);
-          }
-        }
-        var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-        var address = protocol + window.location.host + window.location.pathname + '/ws';
-        var socket = new WebSocket(address);
-        socket.onmessage = function (msg) {
-          if (msg.data == 'reload') window.location.reload();
-          else if (msg.data == 'refreshcss') refreshCSS();
-        };
-        if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-          console.log('Live reload enabled.');
-          sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-        }
-      })();
-    }
-    else {
-      console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-    }
-
-  </script>
-
-
-  <div id="ch-plugin" class="notranslate">
-    <div id="ch-plugin-entry">
-      <div style="display: block !important;"></div>
-    </div>
-    <div id="ch-plugin-script" style="display:none;" class="ch-messenger-hidden"> <iframe id="ch-plugin-script-iframe"
-        style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe>
-    </div>
-    <style data-styled="active" data-styled-version="5.1.1"></style>
-  </div>
-</body>
-
-</html>
+{% endblock %}
