@@ -1,6 +1,6 @@
 new Swiper('.swiper', {
     autoplay: {
-      delay: 5000
+      delay: 1000
     },
     loop: true,
     slidesPerView: 3,

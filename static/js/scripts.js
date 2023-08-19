@@ -86,7 +86,6 @@ if(jQuery(".top_banner_close").css("display") == "none"){
 
 
 
-
 });
 
 
