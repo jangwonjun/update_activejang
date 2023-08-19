@@ -10,7 +10,7 @@ app = Flask(__name__, static_url_path='/static')
 @app.route('/')
 def main():
     nav_item = (
-        "Introduce", "portfolio", "Projecting", "Making Film", "Brand"
+        "Introduce", "portfolio", "performance", "Making Film", "Brand"
     )
     return render_template('index.html', nav_item=nav_item)
 
