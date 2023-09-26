@@ -1,0 +1,4 @@
+slack==0.0.2
+slack_sdk==3.22.0
+webdriver_manager==4.0.0
+selenium==3.141.0
